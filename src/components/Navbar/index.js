@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, NavContainer, Logo, NavLinks } from './NavStyle'
 
-const NaviBar = () => {
+const NavBar = () => {
     return (
         <>
             <Nav>
@@ -13,4 +13,4 @@ const NaviBar = () => {
     )
 }
 
-export default Navibar;
+export default Navbar;
