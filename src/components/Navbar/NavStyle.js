@@ -30,7 +30,7 @@ export const NavContainer = styled.div`
 `
 
 export const Logo = styled(LinkD)`
-    color: #fff;
+    color: #ffffff;
     display: flex;
     justify-self: flex-start;
     margin-left: 24px;
