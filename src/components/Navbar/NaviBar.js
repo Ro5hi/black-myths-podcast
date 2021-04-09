@@ -1,16 +1,16 @@
 import React from 'react';
 import { Nav, NavContainer, Logo, NavLinks } from './NavStyle'
 
-const Navbar = () => {
+const NaviBar = () => {
     return (
         <>
             <Nav>
                 <NavContainer>
-                    <Logo> BMP </Logo>
+                    <Logo to='/'> BMP </Logo>
                 </NavContainer>
             </Nav>
         </>
     )
 }
 
-export default Navbar;
+export default Navibar;
