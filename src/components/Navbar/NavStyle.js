@@ -3,11 +3,12 @@ import { Link as LinkD } from 'react-scroll'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: #000;
+    background: #000000;
     display: flex;
     position: sticky;
     font-size: 1rem;
-    height: 80px;
+    height: 100px;
+    width: 100%;
     margin-top: -80px;
     justify-content: center;
     align-items: center;
@@ -41,7 +42,7 @@ export const Logo = styled(LinkD)`
     cursor: pointer;
 `
 
-export const NavLinks = styled(LinkD)`
+export const NavLinks = styled(LinkS)`
     color: #ffffff;
     display: flex;
     cursor: pointer;
