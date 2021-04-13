@@ -4,4 +4,6 @@ const Featured = () => {
     return (
         <div className="featured" id="featured"></div>
     )
-}
+};
+
+export default Featured;
