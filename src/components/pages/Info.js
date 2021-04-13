@@ -2,7 +2,7 @@ import React from 'react';
 
 const Info = () => {
     return (
-        <div className="myth">
+        <div className="myth" id="info">
             <strong>What is a myth?</strong>
             <p>
                 An unfounded or false notion. Example: Racial superiority.
@@ -22,6 +22,6 @@ const Info = () => {
             </div>
         </div>
     )
-}
+};
 
 export default Info;
