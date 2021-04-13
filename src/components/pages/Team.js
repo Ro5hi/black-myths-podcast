@@ -8,4 +8,6 @@ const Team = () => {
     )
 };
 
+// need bio from team members and respective profile pictures
+
 export default Team;
