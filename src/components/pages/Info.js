@@ -2,7 +2,7 @@ import React from 'react';
 
 const Info = () => {
     return (
-        <div className="myth" id="info">
+        <div className="myth" id="myth">
             <strong>What is a myth?</strong>
             <p>
                 An unfounded or false notion. Example: Racial superiority.
