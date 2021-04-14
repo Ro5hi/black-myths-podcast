@@ -6,6 +6,8 @@ import {
         NavMenu, 
         NavLink, 
         NavItem, 
+        NavBtn,
+        NavBtnLink,
         MobileIcon, } from './NavStyle'
 import { FaBars } from 'react-icons/fa' 
 
@@ -35,6 +37,9 @@ const NavBar = () => {
                         <NavLink to="contact">Contact</NavLink>
                     </NavItem>
                 </NavMenu>
+                    <NavBtn>
+                        <NavBtnLink to="/media">Stream</NavBtnLink>
+                    </NavBtn>
                 </NavContainer>
             </Nav>
         </>

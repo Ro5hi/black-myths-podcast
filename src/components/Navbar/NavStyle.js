@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { Link as LinkD } from 'react-scroll'
 import { Link as LinkS } from 'react-scroll'
 import { Link as LinkA } from 'react-scroll'
+import { Link as LinkB } from 'react-scroll'
 
 export const Nav = styled.nav`
     background: #000000;
@@ -34,7 +35,7 @@ export const Logo = styled(LinkD)`
 color: #ffffff;
 display: flex;
 justify-self: flex-start;
-margin-left: 24px;
+margin-left: 22px;
 align-items: center;
 font-size: 1.5rem;
 font-weight: bold;
@@ -84,13 +85,42 @@ export const NavItem = styled.li`
     height: 80px;
 `
 
+export const NavBtn = styled.nav`
+    display: flex;
+    align-items: center;
+    
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+`
+
+export const NavBtnLink = styled(LinkB)`
+    border-radius: 50px;
+    background: red;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #ffffff;
+        color: black;
+    }
+`
+
 export const MobileIcon = styled.div`
     display: none;
 
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        top: 0;
+        top: 20px;
         right: 0;
         transform: translate(-100%, 60%);
         font-size: 1.5rem;
