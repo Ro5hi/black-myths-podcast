@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
-
+import { Link as LinkS } from 'react-scroll'
+// import { Link as LinkD } from 'react-scroll'
+// import { Link as LinkA } from 'react-scroll'
+// import { Link as LinkB } from 'react-scroll'
 
 export const MenuContainer = styled.aside`
     position: fixed;

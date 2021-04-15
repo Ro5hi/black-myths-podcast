@@ -4,6 +4,8 @@ import {
     MenuWrapper,
     MenuItem,
     MenuLink,
+    MenuBtnWrap,
+    MenuBtnLink,
     CloseIcon,
     Icon,
 } from './MenuStyles';
@@ -30,6 +32,9 @@ export default function Menu() {
                 <MenuItem>
                     <MenuLink to ="contact">Contact</MenuLink>
                 </MenuItem>
+                <MenuBtnWrap>
+                    <MenuBtnLink to="/stream">Stream</MenuBtnLink>
+                </MenuBtnWrap>
             </MenuWrapper>
         </MenuContainer>
     )
