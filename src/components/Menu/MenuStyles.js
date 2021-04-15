@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
 
+
 export const MenuContainer = styled.aside`
     position: fixed;
     z-index: 999;
@@ -22,6 +23,28 @@ export const MenuWrapper = styled.div``
 export const MenuItem = styled.div``
 
 export const MenuLink = styled.div``
+
+export const MenuBtnWrap = styled.div`
+    color: #ffffff;
+`
+
+export const MenuBtnLink = styled(LinkS)`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+        color: #01bf71;
+        transition: 0.2s ease-in-out;
+    }
+`
 
 export const CloseIcon = styled(FaTimes)`
     color: #ffffff;
