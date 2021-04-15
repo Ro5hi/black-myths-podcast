@@ -14,8 +14,12 @@ export const MenuContainer = styled.aside`
     top: 0;
     left: 0;
     transition: 0.5s ease-in-out;
-    /*     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0' )};
-    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')}; */
+    // opacity: ${({ isOpen }) => (isOpen ? '100%' : '0' )};
+    // top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+`
+
+export const MenuWrapper = styled.div`
+    color: #ffffff;
 `
 
 export const SideMenu = styled.ul`
@@ -26,10 +30,6 @@ export const SideMenu = styled.ul`
 
     @media screen and (max-width: 480px)
         grid-template-rows: repeat(6, 60px);
-`
-
-export const MenuWrapper = styled.div`
-    color: #ffffff;
 `
 
 export const MenuLink= styled(LinkS)`
@@ -56,12 +56,12 @@ export const MenuBtnWrap = styled.div`
 `
 
 export  const MenuBtnLink = styled(LinkR)`
-    border-radius: 50px;
+    border-radius: 80px;
     background: red;
     white-space: nowrap;
-    padding: 22px 44px;
+    padding: 26px 34px;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     outline: none;
     border: none;
     cursor: pointer;
