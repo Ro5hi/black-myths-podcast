@@ -21,17 +21,11 @@ export const MenuContainer = styled.aside`
 `
 
 
-export const MenuWrapper = styled.div``
+export const MenuWrapper = styled.div`
 
-export const MenuItem = styled.div``
-
-export const MenuLink = styled.div``
-
-export const MenuBtnWrap = styled.div`
-    color: #ffffff;
 `
 
-export const MenuBtnLink = styled(LinkS)`
+export const MenuItem = styled(LinkS)`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,6 +40,21 @@ export const MenuBtnLink = styled(LinkS)`
     &:hover {
         color: #01bf71;
         transition: 0.2s ease-in-out;
+    }
+`
+
+export const MenuLink = styled.div``
+
+export const MenuBtnWrap = styled.div`
+    color: #ffffff;
+`
+
+export const MenuBtnLink = styled.nav`
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        display: none;
     }
 `
 
