@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Menu from '../components/Menu';
 // import Hero from './Hero';
@@ -9,10 +9,17 @@ import Menu from '../components/Menu';
 // import Footer from './Footer';
 
 
-export default function Home() {
+const Home = () => {
+    const [isOpen, setIsOpen] = useState(false)
+    
+    const toggle = () => {
+        setIsOpen(!isOpen)
+    }
+
     return (
-        <div>
-            
-        </div>
+        <>
+          <Navbar toggle={toggle} />
+          <Menu isOpen={isOpen} toggle={toggle} />  
+        </>
     )
 }
