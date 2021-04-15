@@ -16,6 +16,13 @@ export const MenuContainer = styled.aside`
     top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `
 
+
+export const MenuWrapper = styled.div``
+
+export const MenuItem = styled.div``
+
+export const MenuLink = styled.div``
+
 export const CloseIcon = styled(FaTimes)`
     color: #ffffff;
 `
@@ -28,5 +35,5 @@ export const Icon = styled.div`
     font-size: 2rem;
     cursor: pointer;
     outline: none;
-    
+
 `
