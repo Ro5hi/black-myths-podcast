@@ -10,10 +10,10 @@ import {
     Icon,
 } from './MenuStyles';
 
-export default function Menu() {
+const Menu = ({ isOpen, toggle }) => {
     return (
-        <MenuContainer>
-            <Icon>
+        <MenuContainer isOpen={isOpen} onClick={toggle}>
+            <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
             <MenuWrapper>
@@ -41,3 +41,5 @@ export default function Menu() {
         </MenuContainer>
     )
 }
+
+export default Menu

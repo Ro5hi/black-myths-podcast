@@ -14,8 +14,8 @@ export const MenuContainer = styled.aside`
     top: 0;
     left: 0;
     transition: 0.5s ease-in-out;
-    // opacity: ${({ isOpen }) => (isOpen ? '100%' : '0' )};
-    // top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0' )};
+    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `
 
 export const MenuWrapper = styled.div`
