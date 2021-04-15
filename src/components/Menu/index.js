@@ -1,8 +1,8 @@
 import React from 'react';
 import {
     MenuContainer,
+    SideMenu,
     MenuWrapper,
-    MenuItem,
     MenuLink,
     MenuBtnWrap,
     MenuBtnLink,
@@ -17,24 +17,26 @@ export default function Menu() {
                 <CloseIcon />
             </Icon>
             <MenuWrapper>
-                <MenuItem>
-                    <MenuLink to ="about">About</MenuLink>
-                </MenuItem>
-                <MenuItem>
-                    <MenuLink to ="myth">Team</MenuLink>
-                </MenuItem>
-                <MenuItem>
-                    <MenuLink to ="team">Team</MenuLink>
-                </MenuItem>
-                <MenuItem>
-                    <MenuLink to ="featured">Featured</MenuLink>
-                </MenuItem>
-                <MenuItem>
-                    <MenuLink to ="contact">Contact</MenuLink>
-                </MenuItem>
-                <MenuBtnWrap>
-                    <MenuBtnLink to="/stream">Stream</MenuBtnLink>
-                </MenuBtnWrap>
+                <SideMenu>
+                    <MenuLink to ="about">
+                        About
+                    </MenuLink>
+                    <MenuLink to ="myth">
+                        Myth
+                    </MenuLink>
+                    <MenuLink to ="team">
+                        Team
+                    </MenuLink>
+                    <MenuLink to ="featured">
+                        Featured
+                    </MenuLink>
+                    <MenuLink to ="contact">
+                        Contact
+                    </MenuLink>
+                    <MenuBtnWrap>
+                        <MenuBtnLink to="/stream">Stream</MenuBtnLink>
+                    </MenuBtnWrap>
+                </SideMenu>
             </MenuWrapper>
         </MenuContainer>
     )

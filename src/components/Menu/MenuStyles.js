@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
-import { Link as LinkS } from 'react-scroll'
-// import { Link as LinkD } from 'react-scroll'
-// import { Link as LinkA } from 'react-scroll'
-// import { Link as LinkB } from 'react-scroll'
+import { Link as LinkS } from 'react-scroll';
+import { Link as LinkR } from 'react-scroll';
 
 export const MenuContainer = styled.aside`
     position: fixed;
@@ -16,16 +14,25 @@ export const MenuContainer = styled.aside`
     top: 0;
     left: 0;
     transition: 0.5s ease-in-out;
-    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0' )};
-    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    /*     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0' )};
+    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')}; */
 `
 
+export const SideMenu = styled.ul`
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 80px);
+    text-align: center;
+
+    @media screen and (max-width: 480px)
+        grid-template-rows: repeat(6, 60px);
+`
 
 export const MenuWrapper = styled.div`
-
+    color: #ffffff;
 `
 
-export const MenuItem = styled(LinkS)`
+export const MenuLink= styled(LinkS)`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,24 +45,34 @@ export const MenuItem = styled(LinkS)`
     cursor: pointer;
 
     &:hover {
-        color: #01bf71;
+        color: red;
         transition: 0.2s ease-in-out;
     }
 `
 
-export const MenuLink = styled.div``
-
 export const MenuBtnWrap = styled.div`
-    color: #ffffff;
+    display: flex;
+    justify-content: center;
 `
 
-export const MenuBtnLink = styled.nav`
-    display: flex;
-    align-items: center;
+export  const MenuBtnLink = styled(LinkR)`
+    border-radius: 50px;
+    background: red;
+    white-space: nowrap;
+    padding: 22px 44px;
+    color: white;
+    font-size: 24px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
 
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #ffffff;
+        color: black;
+    } 
 `
 
 export const CloseIcon = styled(FaTimes)`
