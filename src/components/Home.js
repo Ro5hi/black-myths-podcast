@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Menu from '../components/Menu';
-// import Hero from './Hero';
-// import Info from './Info';
-// import About from './About';
-// import Team from './Team';
-// import Featured from './Featured';
-// import Footer from './Footer';
+// import Hero from '../components/pages/Hero';
+// import Info from '../components/pages/Info';
+// import About from '../components/pages/About';
+// import Team from '../components/pages/Team';
+// import Featured from '../components/pages/Featured';
+// import Footer from '../components/pages/Footer';
 
 
 const Home = () => {
