@@ -36,12 +36,28 @@ export const Logo = styled.div`
     display: flex;
 `
 
+export const InfoP = styled.p`
+
+`
+
 //Footer
 export const Footer = ``
 
 
 // Info
 export const MythContainer = styled.div`
+
+`
+
+export const MythWrapper = styled.div`
+
+`
+
+export const MythColumn = styled.col`
+
+`
+
+export const MythHeader = styled.h1`
 
 `
 
