@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Menu from '../components/Menu';
 import Hero from '../components/pages/Hero';
-// import Info from '../components/pages/Info';
+import Info from '../components/pages/Info';
 // import About from '../components/pages/About';
 // import Team from '../components/pages/Team';
 // import Featured from '../components/pages/Featured';
@@ -21,6 +21,7 @@ const Home = () => {
           <Navbar toggle={toggle} />
           <Menu isOpen={isOpen} toggle={toggle} />  
           <Hero />
+          <Info />
         </>
     )
 }

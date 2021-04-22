@@ -41,8 +41,17 @@ export const Footer = ``
 
 
 // Info
-export const Info = ``
+export const MythContainer = styled.div`
 
+`
+
+export const First = styled.div`
+
+`
+
+export const Second = styled.div`
+
+`
 
 // Home 
 export const Home = ``
