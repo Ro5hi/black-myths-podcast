@@ -22,9 +22,7 @@ const Info = ({id, header1, header2, header3, desc, ep2, ep3 }) => {
                             </MythColumn2>
                         </MythInfoWrapper>
                         <ImgWrapper>
-                            <Img>
-                                <img src="\images\img1.jpg" alt="img1" />
-                            </Img>
+                            <Img src={img} alt={alt} />
                         </ImgWrapper>
                     </MythColumn1>
                 </MythRow>
