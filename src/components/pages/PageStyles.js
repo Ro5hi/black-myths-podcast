@@ -42,11 +42,14 @@ export const InfoP = styled.p`
     color: #ffffff;
 `
 export const ImgWrapper = styled.div`
-
+    max-width: 375px;
+    height: 100%;
 `
 
 export const Img = styled.div`
-    
+    width: 100%;
+    margin 0 0 10px 0;
+    padding-right: 0;
 `
 
 //Footer
