@@ -1,7 +1,7 @@
 import React from 'react';
 import { MythContainer, MythHeader, MythWrapper, MythInfoWrapper, MythColumn1, MythColumn2, MythRow, First, Second, InfoP, ImgWrapper, Img } from './PageStyles';
 
-const Info = ({id, header1, header2, header3, desc, ep2, ep3, img, alt }) => {
+const Info = ({id, header1, header2, header3, desc, ep2, ep3 }) => {
     return (
         <MythContainer id={id} >
             <MythWrapper>
@@ -22,7 +22,9 @@ const Info = ({id, header1, header2, header3, desc, ep2, ep3, img, alt }) => {
                             </MythColumn2>
                         </MythInfoWrapper>
                         <ImgWrapper>
-                            <Img img={img} alt={alt} />
+                            <Img>
+                                <img src="\images\img1.jpg" alt="img1" />
+                            </Img>
                         </ImgWrapper>
                     </MythColumn1>
                 </MythRow>
