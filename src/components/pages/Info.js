@@ -22,7 +22,7 @@ const Info = ({id, header1, header2, header3, desc, ep2, ep3 }) => {
                             </MythColumn2>
                         </MythInfoWrapper>
                         <ImgWrapper>
-                            <Img src={img} alt={alt} />
+                            <Img  />
                         </ImgWrapper>
                     </MythColumn1>
                 </MythRow>

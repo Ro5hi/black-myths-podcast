@@ -47,7 +47,8 @@ export const ImgWrapper = styled.div`
 `
 
 export const Img = styled.div`
-    width: 100%;
+    width: 25%;
+    height: 25%;
     margin 0 0 10px 0;
     padding-right: 0;
 `
