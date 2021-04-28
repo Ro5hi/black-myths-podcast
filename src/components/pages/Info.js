@@ -1,23 +1,24 @@
 import React from 'react';
 import { MythContainer, MythHeader, MythWrapper, MythInfoWrapper, MythColumn1, MythColumn2, MythRow, First, Second, InfoP, ImgWrapper, Img } from './PageStyles';
+import { id, header1, desc, header2, ep2, header3, ep3, img } from './PageData';
 
-const Info = () => {
+const Info = ({id, header1, header2, header3, desc, ep2, ep3}) => {
     return (
-        <MythContainer id="myth">
+        <MythContainer id={id}>
             <MythWrapper>
                 <MythRow>
                     <MythColumn1>
                         <MythInfoWrapper>
-                            <MythHeader />
-                                <InfoP />
+                            <MythHeader header1={header1} />
+                                <InfoP desc={desc} />
                             <MythColumn2>
                                 <First>
-                                    <MythHeader />
-                                        <InfoP />
+                                    <MythHeader header2={header2} />
+                                        <InfoP ep2={ep2} />
                                 </First>
                             <Second>
-                                <MythHeader />
-                                    <InfoP />
+                                <MythHeader header3={header3} />
+                                    <InfoP ep3={ep3} />
                             </Second>
                             </MythColumn2>
                         </MythInfoWrapper>
