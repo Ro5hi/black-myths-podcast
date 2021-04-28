@@ -37,7 +37,16 @@ export const Logo = styled.div`
 `
 
 export const InfoP = styled.p`
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+`
+export const ImgWrapper = styled.div`
 
+`
+
+export const Img = styled.div`
+    
 `
 
 //Footer

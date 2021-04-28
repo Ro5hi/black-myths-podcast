@@ -1,5 +1,5 @@
 import React from 'react';
-import { MythContainer, MythHeader, MythWrapper, MythInfoWrapper, MythColumn1, MythColumn2, MythRow, ImgWrap, First, Second, InfoP } from './PageStyles';
+import { MythContainer, MythHeader, MythWrapper, MythInfoWrapper, MythColumn1, MythColumn2, MythRow, First, Second, InfoP, ImgWrapper, Img } from './PageStyles';
 
 const Info = () => {
     return (
@@ -20,10 +20,10 @@ const Info = () => {
                                     <InfoP>An interview with an expert. It is more serious, in-depth, able to frame the myth in ways we never thought of, and adds more context to the myth.</InfoP>
                             </Second>
                             </MythColumn2>
-                            <ImgWrap>
-                                
-                            </ImgWrap>
                         </MythInfoWrapper>
+                        <ImgWrapper>
+                            <Img />
+                        </ImgWrapper>
                     </MythColumn1>
                 </MythRow>
             </MythWrapper>
