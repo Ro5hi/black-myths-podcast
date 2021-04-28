@@ -1,10 +1,9 @@
 import React from 'react';
 import { MythContainer, MythHeader, MythWrapper, MythInfoWrapper, MythColumn1, MythColumn2, MythRow, First, Second, InfoP, ImgWrapper, Img } from './PageStyles';
-import { id, header1, desc, header2, ep2, header3, ep3, img } from './PageData';
 
-const Info = ({id, header1, header2, header3, desc, ep2, ep3}) => {
+const Info = ({id, header1, header2, header3, desc, ep2, ep3, img, alt }) => {
     return (
-        <MythContainer id={id}>
+        <MythContainer id={id} >
             <MythWrapper>
                 <MythRow>
                     <MythColumn1>
@@ -23,7 +22,7 @@ const Info = ({id, header1, header2, header3, desc, ep2, ep3}) => {
                             </MythColumn2>
                         </MythInfoWrapper>
                         <ImgWrapper>
-                            <Img />
+                            <Img img={img} alt={alt} />
                         </ImgWrapper>
                     </MythColumn1>
                 </MythRow>
