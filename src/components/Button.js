@@ -14,7 +14,8 @@ const Button = styled(Link)`
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? '#FFFFFF' : '#DC143C')};
     padding: ${({ capped }) => (capped ? '14px 28px' : '12px 24px')};
-
+    font-size: ${({ big }) => (big ? '20px' : '16px')};
+    
     &:hover {
         transition: all 0.2s ease-in-out;
         background: ${({ primary }) => (primary ? '#FFFFFF' : '#DC143C')};
