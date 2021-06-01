@@ -12,13 +12,12 @@ const Button = styled(Link)`
     align-items: center;
 
     transition: all 0.2s ease-in-out;
-    background: ${({ primary })} => (primary ? '#FFFFFF' : '#DC143C')};
-    padding: ${({ capped })} => (capped ? '14px 28px' : '12px 24px')};
+    background: ${({ primary }) => (primary ? '#FFFFFF' : '#DC143C')};
+    padding: ${({ capped }) => (capped ? '14px 28px' : '12px 24px')};
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({ primary })} => (primary ? '#FFFFFF' : '#DC143C')};
-    
+        background: ${({ primary }) => (primary ? '#FFFFFF' : '#DC143C')};
     }
 `
 
