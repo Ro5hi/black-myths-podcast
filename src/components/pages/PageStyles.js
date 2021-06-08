@@ -2,7 +2,11 @@ import styled from 'styled-components';
 
 
 // About 
-export const About = ``
+export const AboutContainer = `
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+`
 
 
 // Featured 
