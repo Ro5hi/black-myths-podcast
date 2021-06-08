@@ -1,4 +1,8 @@
 import React from 'react'
+import { Button } from '../Button'
+import {
+    InfoConainer
+} from './InfoStyles'
 
 export default function index() {
     return (
