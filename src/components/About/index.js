@@ -3,7 +3,7 @@ import Button from '../Button';
 import { 
     AboutContainer,
     MythWrapper,
-} from './PageStyles'
+} from './AboutStyles'
 
 const About = () => {
     return (

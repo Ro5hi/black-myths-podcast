@@ -1,27 +1,34 @@
-import React from 'react'
-import { Button } from '../Button'
-import {
-    InfoConainer
-} from './InfoStyles'
+import React from 'react';
+import { MythContainer, MythHeader, MythWrapper, MythInfoWrapper, MythColumn1, MythColumn2, MythRow, First, Second, InfoP, ImgWrapper, Img } from './InfoStyles';
 
-export default function index() {
+const Info = ({id, header1, header2, header3, desc, ep2, ep3 }) => {
     return (
-        <>
-            <InfoContainer id={id}>
-                <InfoWrapper>
-                    <InfoRow>
-                        <Column1>
-                            <TextWrapper>
-                                <TopLine></TopLine>
-                                <Heading></Heading>
-                                <Subtitle></Subtitle>
-                                <BtnWrap></BtnWrap>
-                                <Button to="home"></Button>
-                            </TextWrapper>
-                        </Column1>
-                    </InfoRow>
-                </InfoWrapper>
-            </InfoContainer>
-        </>
+        <MythContainer id={id} >
+            <MythWrapper>
+                <MythRow>
+                    <MythColumn1>
+                        <MythInfoWrapper>
+                            <MythHeader header1={header1} />
+                                <InfoP desc={desc} />
+                            <MythColumn2>
+                                <First>
+                                    <MythHeader header2={header2} />
+                                        <InfoP ep2={ep2} />
+                                </First>
+                            <Second>
+                                <MythHeader header3={header3} />
+                                    <InfoP ep3={ep3} />
+                            </Second>
+                            </MythColumn2>
+                        </MythInfoWrapper>
+                        <ImgWrapper>
+                            <Img  />
+                        </ImgWrapper>
+                    </MythColumn1>
+                </MythRow>
+            </MythWrapper>
+        </MythContainer>
     )
-}
+};
+
+export default Info;
