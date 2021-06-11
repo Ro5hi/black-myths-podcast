@@ -1,5 +1,7 @@
+import styled from 'styled-components'
+
 // About 
-export const MythContainer = `
+export const AboutContainer = styled.div`
     display: flex;
     align-items: center;
     background: #ffffff;

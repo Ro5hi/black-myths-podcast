@@ -4,7 +4,7 @@ import Menu from '../components/Menu';
 import Hero from '../components/pages/Hero';
 import Info from '../components/Info/';
 import { InfoData } from '../components/Info/InfoData';
-// import About from '../components/pages/About';
+import About from '../components/About';
 // import Team from '../components/pages/Team';
 // import Featured from '../components/pages/Featured';
 // import Footer from '../components/pages/Footer';
