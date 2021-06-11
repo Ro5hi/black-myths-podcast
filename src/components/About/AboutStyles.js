@@ -14,7 +14,7 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 900px;
+    height: 400px;
     width: 100%;
     max-width: 1100px;
     justify-content: center;
@@ -25,6 +25,20 @@ export const AboutWrapper = styled.div`
 
 export const TextWrapper = styled.div`
     max-width: 500px;
-    padding-top: 0;
+    padding-top: 75px;
     padding-bottom: 75px;
+`
+
+export const TextHeading = styled.div`
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 2.0px;
+    margin-bottom: 32px;
+`
+
+export const TextSubtitle = styled.div`
+    max-width: 500px;
+    margin-bottom: 20px;
+    font-size 32px;
+    line-height: 30px;
 `

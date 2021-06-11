@@ -2,7 +2,9 @@ import React from 'react';
 import { 
     AboutContainer,
     AboutWrapper,
-    TextWrapper
+    TextWrapper,
+    TextHeading,
+    TextSubtitle
 } from './AboutStyles'
 
 const About = () => {
@@ -10,10 +12,12 @@ const About = () => {
         <AboutContainer>
             <AboutWrapper>
                 <TextWrapper>
-                    <TextLine>
-                        An Informative, conversational show analyzing popular myths about Black culture from a sociopolitical and cultural nature.<br/>
-                        TLDR: "We just be debunking the bullshit that be said about Black people."
-                    </TextLine>
+                    <TextHeading>
+                        An informative, conversational show analyzing popular myths about Black culture from a sociopolitical and cultural nature.
+                    </TextHeading>
+                    <TextSubtitle>
+                        TLDR, we just be debunking the bullshit that be said about Black people.
+                    </TextSubtitle>
                 </TextWrapper>
             </AboutWrapper>
         </AboutContainer>

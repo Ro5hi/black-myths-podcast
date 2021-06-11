@@ -22,7 +22,7 @@ const Home = () => {
           <Navbar toggle={toggle} />
           <Menu isOpen={isOpen} toggle={toggle} />  
           <Hero />
-          {/* <About /> */}
+          <About />
           <Info {...InfoData} />
         </>
     )
