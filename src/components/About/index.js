@@ -12,12 +12,8 @@ const About = ({id, heading, subtitle}) => {
         <AboutContainer id={id}>
             <AboutWrapper>
                 <TextWrapper>
-                    <TextHeading>
-                        {heading}
-                    </TextHeading>
-                    <TextSubtitle>
-                        {subtitle}
-                    </TextSubtitle>
+                    <TextHeading>{heading}</TextHeading>
+                    <TextSubtitle>{subtitle}</TextSubtitle>
                 </TextWrapper>
             </AboutWrapper>
         </AboutContainer>

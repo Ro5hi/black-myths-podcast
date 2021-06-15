@@ -25,7 +25,7 @@ export const AboutWrapper = styled.div`
 `
 
 export const TextWrapper = styled.div`
-    max-width: 500px;
+    max-width: 800px;
     padding-top: 75px;
     padding-bottom: 75px;
 `
