@@ -1,5 +1,15 @@
 import React from 'react';
-import { MythContainer, MythHeader, MythWrapper, MythInfoWrapper, MythColumn1, MythColumn2, MythRow, First, Second, InfoP, ImgWrapper, Img } from './InfoStyles';
+import { MythContainer, 
+        MythHeader, 
+        MythWrapper, 
+        MythInfoWrapper, 
+        MythColumn1, 
+        MythColumn2, 
+        MythRow, 
+        First, 
+        Second, 
+        InfoP, 
+        } from './InfoStyles';
 
 const Info = ({ id, header1, header2, header3, desc, ep2, ep3 }) => {
     return (
@@ -21,9 +31,6 @@ const Info = ({ id, header1, header2, header3, desc, ep2, ep3 }) => {
                             </Second>
                             </MythColumn2>
                         </MythInfoWrapper>
-                        <ImgWrapper>
-                            <Img  />
-                        </ImgWrapper>
                     </MythColumn1>
                 </MythRow>
             </MythWrapper>

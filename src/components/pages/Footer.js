@@ -1,10 +1,22 @@
 import React from 'react';
+import { FooterContainer,
+         FooterWrapper,
+         FooterText,
+         FooterLinks
+ } from './PageStyles'; 
 
 const Footer = () => {
     return (
-        <div className="footer" id="footer">
-            BLACK MYTHS PODCAST 2021
-        </div>
+        <FooterContainer>
+            <FooterWrapper>
+                <FooterText>
+                    BLACK MYTHS PODCAST 2021
+                </FooterText>
+                <FooterLinks>
+
+                </FooterLinks>
+            </FooterWrapper>
+        </FooterContainer>
     )
 }
 

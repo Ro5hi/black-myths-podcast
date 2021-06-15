@@ -3,11 +3,12 @@ import styled from 'styled-components'
 // About 
 export const AboutContainer = styled.div`
     display: flex;
+    height: 800px;
     align-items: center;
     background: #ffffff;
 
     @media screen and (max-width: 768px) {
-        padding: 75px 0;
+        padding: 25px 0;
     }
 `
 
@@ -31,7 +32,7 @@ export const TextWrapper = styled.div`
 
 export const TextHeading = styled.div`
     color: #000000;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 2.0px;
     margin-bottom: 32px;
 `
@@ -39,6 +40,6 @@ export const TextHeading = styled.div`
 export const TextSubtitle = styled.div`
     max-width: 500px;
     margin-bottom: 20px;
-    font-size 32px;
-    line-height: 30px;
+    font-size 36px;
+    line-height: 35px;
 `

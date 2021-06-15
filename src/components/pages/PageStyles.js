@@ -45,7 +45,25 @@ export const Img = styled.div`
 `
 
 //Footer
-export const Footer = ``
+export const FooterContainer = styled.div`
+    background-color: black;
+`
 
-// Home 
-export const Home = ``
+export const FooterWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1080px;
+    max-height: 200px;
+    margin: 0 auto;
+`
+
+export const FooterText = styled.div`
+    color: white;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+`
+
+export const FooterLinks = styled.div`
+`
