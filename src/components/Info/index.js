@@ -1,7 +1,7 @@
 import React from 'react';
 import { MythContainer, MythHeader, MythWrapper, MythInfoWrapper, MythColumn1, MythColumn2, MythRow, First, Second, InfoP, ImgWrapper, Img } from './InfoStyles';
 
-const Info = ({id, header1, header2, header3, desc, ep2, ep3 }) => {
+const Info = ({ id, header1, header2, header3, desc, ep2, ep3 }) => {
     return (
         <MythContainer id={id} >
             <MythWrapper>

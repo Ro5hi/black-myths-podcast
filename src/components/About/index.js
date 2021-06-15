@@ -7,16 +7,16 @@ import {
     TextSubtitle
 } from './AboutStyles'
 
-const About = () => {
+const About = ({id, heading, subtitle}) => {
     return (
-        <AboutContainer>
+        <AboutContainer id={id}>
             <AboutWrapper>
                 <TextWrapper>
                     <TextHeading>
-                        An informative, conversational show analyzing popular myths about Black culture from a sociopolitical and cultural nature.
+                        {heading}
                     </TextHeading>
                     <TextSubtitle>
-                        TLDR, we just be debunking the bullshit that be said about Black people.
+                        {subtitle}
                     </TextSubtitle>
                 </TextWrapper>
             </AboutWrapper>
