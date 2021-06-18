@@ -62,24 +62,33 @@ export const MythHeader = styled.div`
 
 export const Description = styled.div`
     color: #ffffff;
+    margin-bottom: 15px;
 `
 
 export const First = styled.div`
     color: #ffffff;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 24px;
+    line-height: 30px;
     font-weight: 700px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 30px;
+       }
 `
 
 export const Second = styled.div`
     color: #ffffff;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 24px;
+    line-height: 30px;
     font-weight: 700px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 30px;
+       }
 `

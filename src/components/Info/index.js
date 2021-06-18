@@ -5,9 +5,9 @@ import { MythContainer,
         MythColumn1, 
         MythInfoWrapper, 
         MythHeader, 
-        // MythColumn2, 
-        // First, 
-        // Second, 
+        MythColumn2, 
+        First, 
+        Second, 
         Description, 
         } from './InfoStyles';
 
@@ -23,6 +23,12 @@ const Info = ({ id, header1, header2, header3, desc, ep2, ep3 }) => {
                         </MythInfoWrapper>
                     </MythColumn1>
                 </MythRow>
+                    <MythColumn2>
+                        <First>{header2}</First>
+                        <Description>{ep2}</Description>
+                        <Second>{header3}</Second>
+                        <Description>{ep3}</Description>
+                    </MythColumn2>
             </MythWrapper>
         </MythContainer>
     )
