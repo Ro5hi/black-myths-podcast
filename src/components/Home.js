@@ -6,8 +6,10 @@ import Info from '../components/Info';
 import { InfoData } from '../components/Info/InfoData';
 import About from '../components/About';
 import { AboutData } from '../components/About/AboutData';
-// import Team from '../components/pages/Team';
-// import Featured from '../components/pages/Featured';
+import Team from '../components/Team';
+import { TeamData } from '../components/Team/TeamData';
+// import Featured from '../components/Featured';
+// import FeaturedData from '../components/Featured';
 import Footer from '../components/pages/Footer';
 
 
@@ -25,6 +27,7 @@ const Home = () => {
           <Hero />
           <About {...AboutData} />
           <Info {...InfoData} />
+          <Team {...TeamData} />
           <Footer />
         </>
     )

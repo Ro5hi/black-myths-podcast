@@ -1,8 +1,8 @@
-const TeamData = {
+export const TeamData = {
     member1: 'Too Black',
     headline1: 'Founder. Spoken poet, educator, and activist.',
     member2: 'Elle Black',
-    headline: 'Writer, artist, and facilitator based in Indianapolis.',
+    headline2: 'Writer, artist, and facilitator based in Indianapolis.',
     member3: 'Ryan J. Mills',
     headline: 'Producer. Writer, artist, and volunteer.',
     member4: 'Shelle Terrell',
