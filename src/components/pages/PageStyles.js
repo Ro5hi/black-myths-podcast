@@ -52,10 +52,15 @@ export const FooterContainer = styled.div`
 export const FooterWrapper = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    max-width: 1080px;
-    max-height: 200px;
     margin: 0 auto;
+
+    @media screen and (max-width: 420px) {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+      }
 `
 
 export const FooterText = styled.div`

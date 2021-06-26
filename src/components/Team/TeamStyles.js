@@ -41,7 +41,7 @@ export const TeamCard = styled.div`
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
-    flex-direction: column:
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
@@ -73,6 +73,7 @@ export const MemberHeadline = styled.div`
     color: white;
     font-size: 16px;
     text-align: left;
+    margin-top: 10px;
     
     @media screen and (max-width: 480px) {
         font-size: 12px;
