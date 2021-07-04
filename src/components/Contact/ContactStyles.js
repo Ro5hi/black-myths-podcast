@@ -32,7 +32,7 @@ export const ContactInfo = styled.div`
     margin-bottom: 24px;
 `
 
-export const ContactInput = style.div`
+export const ContactInput = styled.div`
     display: flex;
     justify-content: flex-start;
     max-width: 400px;

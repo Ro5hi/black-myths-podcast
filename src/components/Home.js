@@ -8,6 +8,7 @@ import About from '../components/About';
 import { AboutData } from '../components/About/AboutData';
 import Team from '../components/Team';
 import { TeamData } from '../components/Team/TeamData';
+import Contact from '../components/Contact';
 // import Featured from '../components/Featured';
 // import FeaturedData from '../components/Featured';
 import Footer from '../components/pages/Footer';
@@ -28,6 +29,7 @@ const Home = () => {
           <About {...AboutData} />
           <Info {...InfoData} />
           <Team {...TeamData} />
+          <Contact />
           <Footer />
         </>
     )
