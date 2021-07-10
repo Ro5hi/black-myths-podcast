@@ -4,10 +4,12 @@ import {
     ContactWrapper,
     ContactInfo,
     ContactInput,
+    ContactForm,
+    FormText,
     SendBtn
 } from './ContactStyles';
 
-const Contact = ({ Info, Input }) => {
+const Contact = ({ Info, Input, SendBtn }) => {
     return (
         <ContactContainer>
             <ContactWrapper>
@@ -15,7 +17,7 @@ const Contact = ({ Info, Input }) => {
                     { Info }
                     <ContactInput> { Input } </ContactInput>
                 </ContactInfo>
-                <SendBtn> Send </SendBtn>
+                <SendBtn> { SendBtn } </SendBtn>
             </ContactWrapper>
         </ContactContainer>
     )
