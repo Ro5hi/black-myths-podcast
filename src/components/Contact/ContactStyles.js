@@ -28,8 +28,9 @@ export const ContactInfo = styled.div`
     width: 100%;
     align-items: center;
     color: white;
+
     font-size: 16px;
-    line-height: 18px;
+    line-height: 25px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 24px;
