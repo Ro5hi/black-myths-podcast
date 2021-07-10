@@ -44,20 +44,6 @@ export const ContactInput = styled.input`
     outline: none;
     border-radius: 10px;
     box-sizing: border-box;
-    max-width: 600px;
-    max-height: 100px;
-`
-
-export const ContactForm = styled.input`
-    color: black;
-    display: block;
-    width: 100%;
-`
-
-export const FormText = styled.textarea`
-    color: black;
-    width: 100%;
-    resize: none;
 `
 
 export const FormSend = styled.button`

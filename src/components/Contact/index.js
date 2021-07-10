@@ -4,8 +4,6 @@ import {
     ContactWrapper,
     ContactInfo,
     ContactInput,
-    ContactForm,
-    FormText,
     FormSend
 } from './ContactStyles';
 
@@ -14,7 +12,7 @@ const Contact = ({ Info }) => {
         <ContactContainer>
             <ContactWrapper>
                 <ContactInfo> { Info } </ContactInfo>
-                    <ContactInput type="text" />
+                <ContactInput />
                 <FormSend> Send Message </FormSend>
             </ContactWrapper>
         </ContactContainer>
