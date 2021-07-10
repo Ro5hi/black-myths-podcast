@@ -3,17 +3,15 @@ import {
     ContactContainer,
     ContactWrapper,
     ContactInfo,
-    ContactInput,
-    FormSend
+    SendEmail
 } from './ContactStyles';
 
-const Contact = ({ Info }) => {
+const Contact = ({ Info, Email }) => {
     return (
         <ContactContainer>
             <ContactWrapper>
                 <ContactInfo> { Info } </ContactInfo>
-                <ContactInput />
-                <FormSend> Send Message </FormSend>
+                <SendEmail> { Email } </SendEmail>
             </ContactWrapper>
         </ContactContainer>
     )

@@ -19,12 +19,13 @@ export const ContactContainer = styled.div`
 
 export const ContactWrapper = styled.div`
     max-width: 700px;
-    height: 500px;
+    height: 320px;
     justify-content: center;
 `
 
 export const ContactInfo = styled.div`
     margin-top: 100px;
+    width: 100%;
     align-items: center;
     color: white;
     font-size: 16px;
@@ -34,27 +35,15 @@ export const ContactInfo = styled.div`
     margin-bottom: 24px;
 `
 
-export const ContactInput = styled.input`
-    background: white;
-    display: flex;
-    width: 100%;
-    height: 100px;
-    padding: 40px;
-    border: none; 
-    outline: none;
-    border-radius: 10px;
-    box-sizing: border-box;
-`
-
-export const FormSend = styled.button`
+export const SendEmail = styled.button`
     margin-top: 20px;
-    color: white;
     border-radius: 50px;
     height: 45px;
     width: 150px;
     white-space: nowrap;
     outline: none;
     border: none;
+    text-decoration: none;
     
     cursor: pointer;
     display: flex;
@@ -62,14 +51,13 @@ export const FormSend = styled.button`
     align-items: center;
 
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? '#FFFFFF' : '#DC143C')};
+    background: ${({ primary }) => (primary ? '#FFFFFF' : 'black')};
     padding: ${({ capped }) => (capped ? '14px 28px' : '12px 24px')};
     font-size: ${({ big }) => (big ? '20px' : '16px')};
 
     &:hover {
         width: 160px;
         transition: all 0.2s ease-in-out;
-        color: black;
-        background: ${({ primary }) => (primary ? '#DC143C' : '#FFFFFF')};
+        background: ${({ primary }) => (primary ? 'black' : 'red')};
     }
 `
