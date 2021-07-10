@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContactContainer = styled.div`
     display: flex;
-    background: black;
+    background: #202020;
     height: 800px;
     height: 100%;
     justify-content: center;
@@ -34,25 +34,24 @@ export const ContactInfo = styled.div`
     margin-bottom: 24px;
 `
 
-export const ContactInput = styled.div`
-    margin-top: 25px;
+export const ContactInput = styled.input`
     background: white;
     display: flex;
-    justify-content: flex-start;
     width: 100%;
-    height: 100%;
+    height: 100px;
     padding: 40px;
+    border: none; 
+    outline: none;
     border-radius: 10px;
     box-sizing: border-box;
     max-width: 600px;
-    max-height: 500px;
+    max-height: 100px;
 `
 
 export const ContactForm = styled.input`
     color: black;
     display: block;
     width: 100%;
-    height: 100%;
 `
 
 export const FormText = styled.textarea`

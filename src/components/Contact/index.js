@@ -9,14 +9,12 @@ import {
     FormSend
 } from './ContactStyles';
 
-const Contact = ({ Info, Input }) => {
+const Contact = ({ Info }) => {
     return (
         <ContactContainer>
             <ContactWrapper>
-                <ContactInfo>
-                    { Info }
-                    <ContactInput> { Input } </ContactInput>
-                </ContactInfo>
+                <ContactInfo> { Info } </ContactInfo>
+                    <ContactInput type="text" />
                 <FormSend> Send Message </FormSend>
             </ContactWrapper>
         </ContactContainer>
