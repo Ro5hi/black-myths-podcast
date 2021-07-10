@@ -33,10 +33,11 @@ export const ContactInfo = styled.div`
 `
 
 export const ContactInput = styled.div`
+    background: white;
     display: flex;
     justify-content: flex-start;
     max-width: 400px;
-    max-height: 400px;
+    max-height: 500px;
 `
 
 export const SendBtn = styled.div`

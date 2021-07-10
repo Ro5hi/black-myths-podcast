@@ -7,14 +7,13 @@ import {
     SendBtn
 } from './ContactStyles';
 
-const Contact = () => {
+const Contact = ({ Info, Input }) => {
     return (
         <ContactContainer>
             <ContactWrapper>
                 <ContactInfo>
-                    <ContactInput>
-
-                    </ContactInput>
+                    { Info }
+                    <ContactInput> { Input } </ContactInput>
                 </ContactInfo>
                 <SendBtn> Send </SendBtn>
             </ContactWrapper>
