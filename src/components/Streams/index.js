@@ -3,8 +3,8 @@ import {
     StreamContainer,
     StreamWrapper,
     StreamHeadline,
-    Spotify,
-    Youtube
+    StreamSpotify,
+    StreamYoutube
 } from './StreamsStyles';
 
 const Stream = ({ Spotify, Youtube }) => {
