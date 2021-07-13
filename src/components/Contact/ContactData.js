@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 export const ContactData = {
     Info: 'Our inbox is open so send us a message. You can also suggest topics to discuss. If you are interested in collaborating then let us know!',
     Email: <a 

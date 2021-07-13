@@ -8,7 +8,7 @@ import {
 
 const Contact = ({ Info, Email }) => {
     return (
-        <ContactContainer>
+        <ContactContainer id="contact">
             <ContactWrapper>
                 <ContactInfo> { Info } </ContactInfo>
                 <SendEmail> { Email } </SendEmail>
