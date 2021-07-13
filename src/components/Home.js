@@ -11,7 +11,7 @@ import { TeamData } from '../components/Team/TeamData';
 import Contact from '../components/Contact';
 import { ContactData } from '../components/Contact/ContactData';
 import Stream from '../components/Streams';
-// import { StreamData } from '../components/Streams/StreamsData';
+import { StreamData } from '../components/Streams/StreamsData';
 // import Featured from '../components/Featured';
 // import FeaturedData from '../components/Featured';
 import Footer from '../components/pages/Footer';

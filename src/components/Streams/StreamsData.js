@@ -1,4 +1,4 @@
 const StreamsData = {
-    Spotify = "",
-    Youtube = ""
+    Spotify: "",
+    Youtube: ""
 }
