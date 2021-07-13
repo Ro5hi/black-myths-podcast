@@ -1,12 +1,19 @@
 import React from 'react';
+import {
+    StreamContainer,
+    StreamWrapper,
+    StreamHeadline,
+    Spotify,
+    Youtube
+} from './StreamsStyles';
 
-const Stream = () => {
+const Stream = ({}) => {
     return (
         <StreamContainer>
             <StreamWrapper>
                 <StreamHeadline>
-                    <Spotify></Spotify>
-                    <Youtube></Youtube>
+                    <StreamSpotify> </StreamSpotify>
+                    <StreamYoutube> </StreamYoutube>
                 </StreamHeadline>
             </StreamWrapper>
         </StreamContainer>
