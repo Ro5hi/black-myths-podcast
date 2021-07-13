@@ -1,0 +1,4 @@
+const StreamsData = {
+    Spotify = "",
+    Youtube = ""
+}
