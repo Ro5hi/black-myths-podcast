@@ -14,6 +14,7 @@ const Stream = () => {
                 <StreamHeadline>
                     <StreamSpotify> </StreamSpotify>
                     <StreamYoutube> </StreamYoutube>
+                    <StreamLibsyn>  </StreamLibsyn>
                 </StreamHeadline>
             </StreamWrapper>
         </StreamContainer>
