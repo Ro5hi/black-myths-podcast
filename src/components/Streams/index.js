@@ -7,7 +7,7 @@ import {
     StreamYoutube
 } from './StreamsStyles';
 
-const Stream = ({ Spotify, Youtube }) => {
+const Stream = () => {
     return (
         <StreamContainer>
             <StreamWrapper>
