@@ -9,3 +9,5 @@ export const StreamHeadline = styled.div``
 export const StreamSpotify = styled.div``
 
 export const StreamYoutube = styled.div``
+
+export const StreamLibsyn = styled.div``
