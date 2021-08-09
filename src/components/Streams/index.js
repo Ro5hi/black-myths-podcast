@@ -4,7 +4,8 @@ import {
     StreamWrapper,
     StreamHeadline,
     StreamSpotify,
-    StreamYoutube
+    StreamYoutube,
+    StreamLibsyn
 } from './StreamsStyles';
 
 const Stream = () => {
