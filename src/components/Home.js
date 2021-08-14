@@ -31,7 +31,7 @@ const Home = () => {
           <Hero />
           <About {...AboutData} />
           <Info {...InfoData} />
-          <Stream />
+          <Stream {...StreamData} />
           <Team {...TeamData} />
           <Contact {...ContactData} />
           <Footer />
