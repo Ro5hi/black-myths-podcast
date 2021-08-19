@@ -16,7 +16,19 @@ export const FeaturedContainer = styled.div`
     }
 
 `
-export const FeaturedWrapper = styled.div``
+export const FeaturedWrapper = styled.div`
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    
+    @media screen and (max-width: 768px) {
+        padding: 0 20px;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 1200px;
+    }
+`
 
 export const FeaturedHeadline = styled.div``
 
