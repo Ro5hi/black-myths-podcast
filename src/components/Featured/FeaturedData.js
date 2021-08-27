@@ -1,5 +1,8 @@
 const FeaturedData = {
-    Guest1 = "",
-    Guest2 = "",
-    Guest3 = ""
+    Guest1Name= "Joy James",
+    Guest1Photo= "",
+    Guest2Name = "Glen Ford",
+    Guest2Photo= "",
+    Guest3Name = "Dr. Rasul Mowatt",
+    Guest3Photo = ""
 }
