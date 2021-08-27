@@ -5,7 +5,9 @@ const Featured = () => {
     return (
         <FeaturedContainer>
         <FeaturedWrapper>
-            <FeaturedCard></FeaturedCard>
+            <FeaturedCard>
+                <FeaturedName> </FeaturedName>
+            </FeaturedCard>
         </FeaturedWrapper>
     </FeaturedContainer>
     )
