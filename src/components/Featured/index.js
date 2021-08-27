@@ -6,7 +6,15 @@ const Featured = ({ Guest1Name, Guest1Photo, Guest2Name, Guest2Photo, Guest3Name
         <FeaturedContainer id="featured">
         <FeaturedWrapper>
             <FeaturedCard>
-                <FeaturedPhoto> </FeaturedPhoto>
+                <FeaturedPhoto> <img src="\images\guests\drjj.jpg" alt="JoyJames" /> </FeaturedPhoto>
+                <FeaturedName> {Guest1Name} </FeaturedName>
+            </FeaturedCard>
+            <FeaturedCard>
+                <FeaturedPhoto> <img src="\images\guests\drjj.jpg" alt="JoyJames" /> </FeaturedPhoto>
+                <FeaturedName> {Guest1Name} </FeaturedName>
+            </FeaturedCard>
+            <FeaturedCard>
+                <FeaturedPhoto> <img src="\images\guests\drjj.jpg" alt="JoyJames" /> </FeaturedPhoto>
                 <FeaturedName> {Guest1Name} </FeaturedName>
             </FeaturedCard>
         </FeaturedWrapper>
