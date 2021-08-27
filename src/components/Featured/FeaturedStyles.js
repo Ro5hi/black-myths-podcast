@@ -49,7 +49,7 @@ export const FeaturedCard = styled.div`
 
 export const FeaturedName = styled.div``
 
-export const FeaturedPhoto = style.div``
+export const FeaturedPhoto = styled.div``
 
 export const FeaturedLink = styled.div``
 
