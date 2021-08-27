@@ -32,11 +32,10 @@ export const FeaturedWrapper = styled.div`
 `
 
 export const FeaturedCard = styled.div`
-    background: white;
+    background: black;
     margin-top: 20px;
     margin-bottom: 20px;
-    display: flex;
-    border-radius: 10px;
+    display: flex
     max-height: 400px;
     max-width: 400px;
     padding: 20px;
@@ -49,7 +48,7 @@ export const FeaturedCard = styled.div`
 `
 
 export const FeaturedName = styled.div`
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
 `
@@ -57,8 +56,8 @@ export const FeaturedName = styled.div`
 export const FeaturedPhoto = styled.div`
     max-height: 100%;
     max-width: 100%;
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 `
 
 export const FeaturedHeadline = styled.div``
