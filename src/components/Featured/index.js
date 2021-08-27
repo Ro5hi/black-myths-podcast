@@ -1,11 +1,11 @@
 import React from 'react';
-import { FeaturedContainer, FeaturedWrapper } from './FeaturedStyles';
+import { FeaturedContainer, FeaturedWrapper, FeaturedCard } from './FeaturedStyles';
 
 const Featured = () => {
     return (
         <FeaturedContainer>
         <FeaturedWrapper>
-            
+            <FeaturedCard></FeaturedCard>
         </FeaturedWrapper>
     </FeaturedContainer>
     )

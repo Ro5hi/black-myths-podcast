@@ -30,7 +30,22 @@ export const FeaturedWrapper = styled.div`
     }
 `
 
-export const FeaturedCard = styled.div``
+export const FeaturedCard = styled.div`
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 10px;
+    max-height: 400px;
+    max-width: 400px;
+    padding: 20px;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+`
 
 export const FeaturedName = styled.div``
 
