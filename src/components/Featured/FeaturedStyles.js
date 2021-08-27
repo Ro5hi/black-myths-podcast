@@ -47,11 +47,18 @@ export const FeaturedCard = styled.div`
     }
 `
 
-export const FeaturedName = styled.div``
+export const FeaturedName = styled.div`
+    color: black;
+    font-size: 20px;
+    text-align: center;
+`
 
-export const FeaturedPhoto = styled.div``
-
-export const FeaturedLink = styled.div``
+export const FeaturedPhoto = styled.div`
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 14px;
+    margin-bottom: 14px;
+`
 
 export const FeaturedHeadline = styled.div``
 
