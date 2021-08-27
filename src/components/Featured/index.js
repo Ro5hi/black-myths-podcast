@@ -3,7 +3,7 @@ import { FeaturedContainer, FeaturedWrapper, FeaturedCard, FeaturedName, Feature
 
 const Featured = ({ Guest1Name, Guest1Photo, Guest2Name, Guest2Photo, Guest3Name, Guest3Photo }) => {
     return (
-        <FeaturedContainer>
+        <FeaturedContainer id="featured">
         <FeaturedWrapper>
             <FeaturedCard>
                 <FeaturedPhoto> </FeaturedPhoto>
