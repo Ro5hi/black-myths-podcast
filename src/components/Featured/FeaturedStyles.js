@@ -21,13 +21,16 @@ export const FeaturedWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
     align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
     
     @media screen and (max-width: 768px) {
-        padding: 0 20px;
+        grid-template-columns: 1fr 1fr;
     }
 
     @media screen and (max-width: 480px) {
-        height: 1200px;
+        grid-template-columns: 1fr;
+        padding: 0 20px;
     }
 `
 
@@ -36,6 +39,9 @@ export const FeaturedCard = styled.div`
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
     max-height: 400px;
     max-width: 400px;
     padding: 20px;
@@ -56,8 +62,8 @@ export const FeaturedName = styled.div`
 export const FeaturedPhoto = styled.div`
     max-height: 100%;
     max-width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
 `
 
 export const FeaturedHeadline = styled.div``
