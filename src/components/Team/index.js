@@ -22,7 +22,7 @@ const Team = ({ member1, headline1, member2, headline2, member3, headline3, memb
                     <MemberHeadline> {headline2} </MemberHeadline>
                 </TeamCard>
                 <TeamCard>
-                    <MemberPhoto> <img src="\images\team\ryan.png" alt="ryan"/> </MemberPhoto>
+                    <MemberPhoto> <img src="\images\team\ryan.jpg" alt="ryan"/> </MemberPhoto>
                     <MemberName> {member3} </MemberName>
                     <MemberHeadline> {headline3} </MemberHeadline>
                 </TeamCard>
@@ -37,7 +37,7 @@ const Team = ({ member1, headline1, member2, headline2, member3, headline3, memb
                     <MemberHeadline> {headline5} </MemberHeadline>
                 </TeamCard>
                 <TeamCard>
-                    <MemberPhoto> <img src="\images\team\kam.png" alt="kameron"/> </MemberPhoto>
+                    <MemberPhoto> <img src="\images\team\kam.jpg" alt="kameron"/> </MemberPhoto>
                     <MemberName> {member6} </MemberName>
                     <MemberHeadline> {headline6} </MemberHeadline>
                 </TeamCard>
