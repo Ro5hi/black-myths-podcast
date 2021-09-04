@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const FeaturedContainer = styled.div`
-    color: black;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #ffffff;
@@ -20,8 +20,10 @@ export const FeaturedContainer = styled.div`
 export const FeaturedWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
-    align-items: center;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 0 15px;
     grid-gap: 20px;
     
     @media screen and (max-width: 768px) {
