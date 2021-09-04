@@ -16,6 +16,17 @@ const Featured = ({ Guest1Name, Guest1Photo, Guest2Name, Guest2Photo, Guest3Name
                 <FeaturedCard>
                     <FeaturedPhoto> <img src="\images\guests\r_m.png" alt="RasulMowatt" /> </FeaturedPhoto>
                     <FeaturedName> {Guest3Name} </FeaturedName>
+                </FeaturedCard>                <FeaturedCard>
+                    <FeaturedPhoto> <img src="\images\guests\nj.png" alt="Nina" /> </FeaturedPhoto>
+                    <FeaturedName> </FeaturedName>
+                </FeaturedCard>
+                <FeaturedCard>
+                    <FeaturedPhoto> <img src="\images\guests\lof.png" alt="LizOlivia" /> </FeaturedPhoto>
+                    <FeaturedName> </FeaturedName>
+                </FeaturedCard>
+                <FeaturedCard>
+                    <FeaturedPhoto> <img src="\images\guests\mikaela.jpg" alt="Mikaela" /> </FeaturedPhoto>
+                    <FeaturedName> </FeaturedName>
                 </FeaturedCard>
             </FeaturedWrapper>
         </FeaturedContainer>

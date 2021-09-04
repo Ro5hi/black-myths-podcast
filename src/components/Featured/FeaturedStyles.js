@@ -37,7 +37,6 @@ export const FeaturedWrapper = styled.div`
 `
 
 export const FeaturedCard = styled.div`
-    background: black;
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex
@@ -46,10 +45,9 @@ export const FeaturedCard = styled.div`
     border-radius: 10px;
     max-height: 400px;
     max-width: 400px;
-    padding: 20px;
 
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.25);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
@@ -62,8 +60,6 @@ export const FeaturedName = styled.div`
 `
 
 export const FeaturedPhoto = styled.div`
-    max-height: 100%;
-    max-width: 100%;
     margin-top: 14px;
     margin-bottom: 14px;
 `
