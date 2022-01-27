@@ -13,7 +13,7 @@ import { ContactData } from '../components/Contact/ContactData';
 import Stream from '../components/Streams';
 import { StreamsData } from '../components/Streams/StreamsData';
 import Featured from '../components/Featured';
-import FeaturedData from '../components/Featured';
+import { FeaturedData } from '../components/Featured/FeaturedData';
 import Footer from '../components/pages/Footer';
 
 
@@ -32,7 +32,7 @@ const Home = () => {
           <About {...AboutData} />
           <Info {...InfoData} />
           <Stream {...StreamsData} />
-          <Featured {...FeaturedData} />
+          <Featured data={FeaturedData} />
           <Team data={memberData} />
           <Contact {...ContactData} />
           <Footer />

@@ -5,7 +5,6 @@ import ryan from '../../imgs/ryan.jpg';
 import shelle from '../../imgs/shelle.png';
 import ty from '../../imgs/ty.png';
 
-
 export const memberData = [
     {
         img: tb,

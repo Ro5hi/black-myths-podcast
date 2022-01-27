@@ -1,33 +1,19 @@
 import React from 'react';
-import { FeaturedContainer, FeaturedWrapper, FeaturedCard, FeaturedName, FeaturedPhoto } from './FeaturedStyles';
+import { FeaturedContainer, FeaturedWrapper, FeaturedCard, FeaturedPhoto } from './FeaturedStyles';
 
-const Featured = ({ Guest1Name, Guest1Photo, Guest2Name, Guest2Photo, Guest3Name, Guest3Photo }) => {
+const Featured = ({ data }) => {
     return (
         <FeaturedContainer id="featured">
             <FeaturedWrapper>
-                <FeaturedCard>
-                    <FeaturedPhoto> <img src="\images\guests\drjj.jpg" alt="JoyJames" /> </FeaturedPhoto>
-                    <FeaturedName> {Guest1Name} </FeaturedName>
-                </FeaturedCard>
-                <FeaturedCard>
-                    <FeaturedPhoto> <img src="\images\guests\glenf.jpg" alt="GlenFord" /> </FeaturedPhoto>
-                    <FeaturedName> {Guest2Name} </FeaturedName>
-                </FeaturedCard>
-                <FeaturedCard>
-                    <FeaturedPhoto> <img src="\images\guests\r_m.png" alt="RasulMowatt" /> </FeaturedPhoto>
-                    <FeaturedName> {Guest3Name} </FeaturedName>
-                </FeaturedCard>                <FeaturedCard>
-                    <FeaturedPhoto> <img src="\images\guests\nj.png" alt="Nina" /> </FeaturedPhoto>
-                    <FeaturedName> </FeaturedName>
-                </FeaturedCard>
-                <FeaturedCard>
-                    <FeaturedPhoto> <img src="\images\guests\lof.png" alt="LizOlivia" /> </FeaturedPhoto>
-                    <FeaturedName> </FeaturedName>
-                </FeaturedCard>
-                <FeaturedCard>
-                    <FeaturedPhoto> <img src="\images\guests\mikaela.jpg" alt="Mikaela" /> </FeaturedPhoto>
-                    <FeaturedName> </FeaturedName>
-                </FeaturedCard>
+            {data.map((guest, index) => {
+                    return (
+                        <FeaturedCard key={index}>
+                            <FeaturedPhoto>
+                                <img src={guest.img} alt="guests" />
+                            </FeaturedPhoto>
+                        </FeaturedCard>
+                    )
+                })}
             </FeaturedWrapper>
         </FeaturedContainer>
     )
