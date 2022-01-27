@@ -9,6 +9,18 @@ export const MythContainer = styled.div`
         padding: 100px 0;
     }
 `
+export const ImageWrapper = styled.div`
+    max-width: 300px;
+    height: 100%;
+`
+
+export const Image = styled.img`
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 0;
+`
 
 export const MythWrapper = styled.div`
     display: grid;

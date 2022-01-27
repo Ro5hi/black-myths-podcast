@@ -7,40 +7,21 @@ import { TeamContainer,
          MemberHeadline 
 } from './TeamStyles';
 
-const Team = ({ member1, headline1, member2, headline2, member3, headline3, member4, headline4, member5, headline5, member6, headline6 }) => {
+const Team = ({ data }) => {
     return (
         <TeamContainer id="team">
             <TeamWrapper>
-                <TeamCard>
-                    <MemberPhoto> <img src="\images\team\tb.png" alt="tooblack"/> </MemberPhoto>
-                    <MemberName> {member1} </MemberName>
-                    <MemberHeadline> {headline1} </MemberHeadline>
-                </TeamCard>
-                <TeamCard>
-                    <MemberPhoto> <img src="\images\team\elle.png" alt="elle"/> </MemberPhoto>
-                    <MemberName> {member2} </MemberName>
-                    <MemberHeadline> {headline2} </MemberHeadline>
-                </TeamCard>
-                <TeamCard>
-                    <MemberPhoto> <img src="\images\team\ryan.jpg" alt="ryan"/> </MemberPhoto>
-                    <MemberName> {member3} </MemberName>
-                    <MemberHeadline> {headline3} </MemberHeadline>
-                </TeamCard>
-                <TeamCard>
-                    <MemberPhoto> <img src="\images\team\shelle.png" alt="shelle"/> </MemberPhoto>
-                    <MemberName> {member4} </MemberName>
-                    <MemberHeadline> {headline4} </MemberHeadline>
-                </TeamCard>
-                <TeamCard>
-                    <MemberPhoto> <img src="\images\team\ty.png" alt="tyrell"/> </MemberPhoto>
-                    <MemberName> {member5} </MemberName>
-                    <MemberHeadline> {headline5} </MemberHeadline>
-                </TeamCard>
-                <TeamCard>
-                    <MemberPhoto> <img src="\images\team\kam.jpg" alt="kameron"/> </MemberPhoto>
-                    <MemberName> {member6} </MemberName>
-                    <MemberHeadline> {headline6} </MemberHeadline>
-                </TeamCard>
+                {data.map((member, index) => {
+                    return (
+                        <TeamCard key={index}>
+                            <MemberPhoto>
+                                <img src={member.img} alt="team-members" />
+                            </MemberPhoto>
+                            <MemberName>{member.name}</MemberName>
+                            <MemberHeadline>{member.headline}</MemberHeadline>
+                        </TeamCard>
+                    )
+                })}
             </TeamWrapper>
         </TeamContainer>
     )

@@ -7,7 +7,7 @@ import { InfoData } from '../components/Info/InfoData';
 import About from '../components/About';
 import { AboutData } from '../components/About/AboutData';
 import Team from '../components/Team';
-import { TeamData } from '../components/Team/TeamData';
+import { memberData } from '../components/Team/memberData';
 import Contact from '../components/Contact';
 import { ContactData } from '../components/Contact/ContactData';
 import Stream from '../components/Streams';
@@ -33,7 +33,7 @@ const Home = () => {
           <Info {...InfoData} />
           <Stream {...StreamsData} />
           <Featured {...FeaturedData} />
-          <Team {...TeamData} />
+          <Team data={memberData} />
           <Contact {...ContactData} />
           <Footer />
         </>

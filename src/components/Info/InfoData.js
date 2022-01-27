@@ -1,5 +1,8 @@
+import image from '../../imgs/2.png';
+
 export const InfoData = {
     id: 'myth',
+    img: image,
     header1: 'What is a myth?',
     desc: 'An unfounded or false notion. Example: Racial superiority.',
     header2: 'First Episode',
