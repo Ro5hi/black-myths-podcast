@@ -1,24 +1,24 @@
 import styled from "styled-components";
 
 export const TeamContainer = styled.div`
-    height: 100%;
+    background: #202020;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #ffffff;
 
     @media screen and (max-width: 768px) {
         height: 1100px;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 468px) {
         height: 1200px;
     }
 `
 
 export const TeamWrapper = styled.div`
-    max-width: 1000px;
+    max-width: 768px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -26,11 +26,11 @@ export const TeamWrapper = styled.div`
     padding: 0 15px;
     grid-gap: 20px;
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 768px) {
         grid-template-columns: 1fr 1fr;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 468px) {
         grid-template-columns: 1fr;
         padding: 0 20px;
     }
@@ -38,16 +38,16 @@ export const TeamWrapper = styled.div`
 
 export const TeamCard = styled.div`
     background: black;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
     max-height: 400px;
-    max-width: 400px;
-    padding: 15px;
+    max-width: 350px;
+    padding: 5%;
+
     
     &:hover {
         transform: scale(1.05);
@@ -57,8 +57,9 @@ export const TeamCard = styled.div`
 `
 
 export const MemberPhoto = styled.div`
-    max-height: 100%;
-    max-width: 100%;
+    display: flex;
+    height: auto;
+    width: 100%;
     margin-top: 14px;
     margin-bottom: 14px;
 `
@@ -75,7 +76,7 @@ export const MemberHeadline = styled.div`
     text-align: left;
     margin-top: 10px;
     
-    @media screen and (max-width: 480px) {
-        font-size: 12px;
+    @media screen and (max-width: 468px) {
+        font-size: 10px;
       }
 `

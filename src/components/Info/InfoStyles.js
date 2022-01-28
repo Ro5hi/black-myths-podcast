@@ -4,22 +4,11 @@ import styled from 'styled-components'
 export const MythContainer = styled.div`
     background: #202020;
     color: white;
+    height: 100vh;
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
-`
-export const ImageWrapper = styled.div`
-    max-width: 300px;
-    height: 100%;
-`
-
-export const Image = styled.img`
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 20px;
-    margin-right: 0;
 `
 
 export const MythWrapper = styled.div`
@@ -53,13 +42,6 @@ export const MythRow = styled.div`
     align-items: center;
 `
 
-export const MythColumn2 = styled.div`
-    margin-top: 12px;
-    margin-bottom: 12px;
-    padding: 0 25px;
-    grid-area: col1;
-`
-
 export const MythHeader = styled.div`
     margin-bottom: 24px;
     font-size: 48px;
@@ -67,40 +49,42 @@ export const MythHeader = styled.div`
     font-weight: 600;
     color: white;
 
-     @media screen and (max-width: 480px) {
+     @media screen and (max-width: 468px) {
       font-size: 30px;
      }
 `
 
 export const Description = styled.div`
+    margin-top: 24px;
+    font-size: 20px;
     color: #ffffff;
-    margin-bottom: 15px;
+    margin-bottom: 55px;
 `
 
 export const First = styled.div`
     color: #ffffff;
-    font-size: 24px;
+    font-size: 54px;
     line-height: 30px;
     font-weight: 700px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 468px) {
         font-size: 30px;
        }
 `
 
 export const Second = styled.div`
     color: #ffffff;
-    font-size: 24px;
+    font-size: 54px;
     line-height: 30px;
     font-weight: 700px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 468px) {
         font-size: 30px;
        }
 `

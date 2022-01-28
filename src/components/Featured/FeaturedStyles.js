@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const FeaturedContainer = styled.div`
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,14 +37,15 @@ export const FeaturedWrapper = styled.div`
 `
 
 export const FeaturedCard = styled.div`
+    background: black;
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 350px;
+    max-width: 350px;
 
     &:hover {
         transform: scale(1.25);
@@ -63,6 +64,3 @@ export const FeaturedPhoto = styled.div`
     margin-top: 14px;
     margin-bottom: 14px;
 `
-
-export const FeaturedHeadline = styled.div``
-
