@@ -1,5 +1,4 @@
 import tb from '../../imgs/tb.PNG';
-import elle from '../../imgs/elle.png';
 import kam from '../../imgs/kam.jpg';
 import ryan from '../../imgs/ryan.jpg';
 import shelle from '../../imgs/shelle.png';
@@ -11,12 +10,6 @@ export const memberData = [
         alt: 'Too Black',
         name: 'Too Black',
         headline: 'Founder. Spoken poet, educator, & activist.',
-    },
-    {
-        img: elle,
-        alt: 'Elle',
-        name: 'Elle Black',
-        headline: 'Writer, artist, & facilitator based in Indianapolis.',
     },
     {
         img: ryan,
