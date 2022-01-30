@@ -6,13 +6,11 @@ export const MythContainer = styled.div`
     height: 100vh;
 
     @media screen and (max-width: 768px) {
-        height: 900px;
-        padding: 100px 0;
+        height: 100vh;
     }
 
     @media screen and (max-width: 468px) {
-        height: 900px;
-        padding: 100px 0;
+        height: 100vhpx;
     }
 `
 
@@ -73,7 +71,7 @@ export const Description = styled.div`
 
     @media screen and (max-width: 468px) {
         margin-top: 24px;
-        font-size: 20px;
+        font-size: 25px;
         color: #ffffff;
     }
 `
@@ -81,6 +79,7 @@ export const Description = styled.div`
 export const First = styled.div`
     color: #ffffff;
     font-size: 54px;
+    font-weight: 600;
     line-height: 30px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
@@ -100,7 +99,7 @@ export const Second = styled.div`
     color: #ffffff;
     font-size: 54px;
     line-height: 30px;
-    font-weight: 700px;
+    font-weight: 600;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;

@@ -7,13 +7,15 @@ export const TeamContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
     @media screen and (max-width: 768px) {
-        height: 900px;
+        height: 100%;
     }
 
-    @media screen and (max-width: 468px) {
-        height: 800px;
+    @media screen and (max-width: 480px) {
+        height: 100%;
     }
 `
 
@@ -104,7 +106,7 @@ export const MemberHeadline = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        font-size: 12px;
+        font-size: 16px;
         text-align: center;
     }
 `

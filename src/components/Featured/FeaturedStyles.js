@@ -9,11 +9,11 @@ export const FeaturedContainer = styled.div`
     background: #ffffff;
 
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: 100%;
     }
 
     @media screen and (max-width: 480px) {
-        height: 1200px;
+        height: 100%;
     }
 
 `

@@ -8,42 +8,46 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 100vh;
     position: relative;
     z-index: 1;
 
-    @media screen and (max-width: 768px) {
-        height: 900px;
-    }
+  @media screen and (max-width: 768px) {
+    height: 800px;
+    width: 100%;
+  }
 
-    @media screen and (max-width: 468px) {
-      height: 900px;
-      width: 100%;
+  @media screen and (max-width: 468px) {
+    height: 700px;
+    width: 100%;
   }
 `
 
 export const Background = styled.div`
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 `
 export const Logo = styled.div`
-    justify-content: center;
-    display: flex;
+  justify-content: center;
+  display: flex;
+  margin-top: 10%;
 
   @media screen and (max-width: 768px) {
-      height: 900px;
-      width: 100%;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
   }
 
   @media screen and (max-width: 468px) {
-    height: 900px;
-    width: 100%;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
   }
 `
 
@@ -68,6 +72,14 @@ export const Img = styled.div`
 
 export const FooterContainer = styled.footer`
   background-color: #0d0909;
+
+  @media screen and (max-width: 768px) {
+    height: 100%;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 100%;
+  }
 `;
 
 export const FooterWrap = styled.div`

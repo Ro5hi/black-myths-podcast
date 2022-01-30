@@ -46,7 +46,7 @@ export const TextHeading = styled.div`
 
     @media screen and (max-width: 768px) {
         letter-spacing: 1.0px;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     @media screen and (max-width: 468px) {
@@ -64,7 +64,7 @@ export const TextSubtitle = styled.div`
 
     @media screen and (max-width: 768px) {
         letter-spacing: 1.0px;
-        font-size: 25px;
+        font-size: 55px;
     }
 
     @media screen and (max-width: 468px) {
