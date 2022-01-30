@@ -1,4 +1,4 @@
-import tb from '../../imgs/tb.PNG';
+import tb from '../../imgs/tb.png';
 import kam from '../../imgs/kam.jpg';
 import ryan from '../../imgs/ryan.jpg';
 import shelle from '../../imgs/shelle.png';
@@ -9,30 +9,30 @@ export const memberData = [
         img: tb,
         alt: 'Too Black',
         name: 'Too Black',
-        headline: 'Founder. Spoken poet, educator, & activist.',
+        headline: 'Founder of Black Myths Podcast. Spoken poet, educator, & activist.',
     },
     {
         img: ryan,
         alt: 'Ryan',
         name: 'Ryan Mills',
-        headline: 'Producer. Writer, artist, & volunteer.',
+        headline: 'Black Myths Podcast producer. Writer, artist, & volunteer.',
     },
     {
         img: shelle,
         alt: 'Shelle',
         name: 'Shelle Terrell',
-        headline: 'Body adorner, entrepreneur, business consultant, & designated comedian.',
+        headline: 'The designated comedian. Entrepreneur and business consultant.',
     },
     {
         img: ty,
         alt: 'Ty',
         name: 'Terell Alexander',
-        headline: 'Telecommunications Major. Phi Beta Sigma & Alpha Phi Omega National Service Fraternity.',
+        headline: 'Telecommunications Major. ΦΒΣ and ΑΦΩ member.',
     },
     {
         img: kam,
         alt: 'Kam',
         name: 'Kameron Lyons',
-        headline: 'Teacher. "I talk shit & I fight for black people."',
+        headline: '"I talk shit & I fight for black people." Teacher for the community.',
     },
 ]

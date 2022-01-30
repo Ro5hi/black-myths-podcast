@@ -9,11 +9,11 @@ export const TeamContainer = styled.div`
     align-items: center;
 
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: 900px;
     }
 
     @media screen and (max-width: 468px) {
-        height: 1200px;
+        height: 800px;
     }
 `
 
@@ -54,6 +54,16 @@ export const TeamCard = styled.div`
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
+
+    @media screen and (max-width: 768px) {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    @media screen and (max-width: 468px) {
+        max-width: 300px;
+        max-height: 300px;
+    }
 `
 
 export const MemberPhoto = styled.div`
@@ -62,6 +72,18 @@ export const MemberPhoto = styled.div`
     width: 100%;
     margin-top: 14px;
     margin-bottom: 14px;
+
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    @media screen and (max-width: 468px) {
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 `
 
 export const MemberName = styled.div`
@@ -77,6 +99,12 @@ export const MemberHeadline = styled.div`
     margin-top: 10px;
     
     @media screen and (max-width: 468px) {
-        font-size: 10px;
-      }
+        font-size: 12px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+        text-align: center;
+    }
 `
