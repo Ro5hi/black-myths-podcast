@@ -24,24 +24,24 @@ const Footer = () => {
             <SocialMediaWrap>
               <SocialLogo to='/'>Black Myths Podcast 2022</SocialLogo>
               <SocialIcons>
-                <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+                <SocialIconLink href='https://www.facebook.com/blackmythspod/' target='_blank' aria-label='Facebook'>
                   <FaFacebook />
                 </SocialIconLink>
-                <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+                <SocialIconLink href='https://www.instagram.com/blackmythspod/' target='_blank' aria-label='Instagram'>
                   <FaInstagram />
                 </SocialIconLink>
-                <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
+                <SocialIconLink href='https://www.youtube.com/watch?v=zVyTz3_1P-8' target='_blank' aria-label='Youtube'>
                   <FaYoutube />
                 </SocialIconLink>
                 <SocialIconLink
-                  href='//www.twitter.com/'
+                  href='https://twitter.com/blackmythspod'
                   target='_blank'
                   aria-label='Twitter'
                   rel='noopener noreferrer'
                 >
                   <FaTwitter />
                 </SocialIconLink>
-                <SocialIconLink href='/' target='_blank' aria-label='Spotify'>
+                <SocialIconLink href='https://open.spotify.com/show/70RdUs6GHCWmOlFvceGglf' target='_blank' aria-label='Spotify'>
                   <FaSpotify />
                 </SocialIconLink>
               </SocialIcons>
