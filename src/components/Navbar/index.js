@@ -38,7 +38,7 @@ const NavBar = ({ toggle }) => {
                     </NavItem>
                 </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/media">Stream</NavBtnLink>
+                        <NavBtnLink to="/https://open.spotify.com/show/70RdUs6GHCWmOlFvceGglf">Tune In</NavBtnLink>
                     </NavBtn>
                 </NavContainer>
             </Nav>
