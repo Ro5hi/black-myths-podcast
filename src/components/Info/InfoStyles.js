@@ -4,6 +4,7 @@ import styled from 'styled-components'
 export const MythContainer = styled.div`
     background: #202020;
     height: 100vh;
+    margin-top: 100px;
 
     @media screen and (max-width: 768px) {
         height: 100vh;
