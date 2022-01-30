@@ -10,6 +10,10 @@ export const AboutContainer = styled.div`
     @media screen and (max-width: 768px) {
         padding: 25px 0;
     }
+
+    @media screen and (max-width: 468px) {
+        padding: 25px 0;
+    }
 `
 
 export const AboutWrapper = styled.div`
@@ -28,6 +32,10 @@ export const TextWrapper = styled.div`
     max-width: 800px;
     padding-top: 75px;
     padding-bottom: 75px;
+
+    @media screen and (max-width: 768px) {
+        padding: 25px 0;
+    }
 `
 
 export const TextHeading = styled.div`
@@ -35,6 +43,16 @@ export const TextHeading = styled.div`
     font-size: 40px;
     letter-spacing: 2.0px;
     margin-bottom: 32px;
+
+    @media screen and (max-width: 768px) {
+        letter-spacing: 1.0px;
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 468px) {
+        letter-spacing: 1.0px;
+        font-size: 25px;
+    }
 `
 
 export const TextSubtitle = styled.div`
@@ -43,4 +61,14 @@ export const TextSubtitle = styled.div`
     font-size: 50px;
     font-weight: bold;
     color: red;
+
+    @media screen and (max-width: 768px) {
+        letter-spacing: 1.0px;
+        font-size: 25px;
+    }
+
+    @media screen and (max-width: 468px) {
+        letter-spacing: 1.0px;
+        font-size: 25px;
+    }
 `

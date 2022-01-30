@@ -11,6 +11,15 @@ export const HeroContainer = styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
+
+    @media screen and (max-width: 768px) {
+        height: 900px;
+    }
+
+    @media screen and (max-width: 468px) {
+      height: 900px;
+      width: 100%;
+  }
 `
 
 export const Background = styled.div`
@@ -26,6 +35,16 @@ export const Background = styled.div`
 export const Logo = styled.div`
     justify-content: center;
     display: flex;
+
+  @media screen and (max-width: 768px) {
+      height: 900px;
+      width: 100%;
+  }
+
+  @media screen and (max-width: 468px) {
+    height: 900px;
+    width: 100%;
+  }
 `
 
 export const InfoP = styled.p`

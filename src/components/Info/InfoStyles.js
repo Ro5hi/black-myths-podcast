@@ -3,10 +3,15 @@ import styled from 'styled-components'
 // Info
 export const MythContainer = styled.div`
     background: #202020;
-    color: white;
     height: 100vh;
 
     @media screen and (max-width: 768px) {
+        height: 900px;
+        padding: 100px 0;
+    }
+
+    @media screen and (max-width: 468px) {
+        height: 900px;
         padding: 100px 0;
     }
 `
@@ -59,20 +64,36 @@ export const Description = styled.div`
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 55px;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 24px;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    @media screen and (max-width: 468px) {
+        margin-top: 24px;
+        font-size: 20px;
+        color: #ffffff;
+    }
 `
 
 export const First = styled.div`
     color: #ffffff;
     font-size: 54px;
     line-height: 30px;
-    font-weight: 700px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
 
     @media screen and (max-width: 468px) {
-        font-size: 30px;
-       }
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+        letter-spacing: 1.0px;
+        font-size: 25px;
+    }
 `
 
 export const Second = styled.div`
@@ -85,6 +106,10 @@ export const Second = styled.div`
     margin-bottom: 16px;
 
     @media screen and (max-width: 468px) {
-        font-size: 30px;
-       }
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 25px;
+    }
 `
