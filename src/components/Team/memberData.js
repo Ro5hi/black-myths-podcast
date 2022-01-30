@@ -1,4 +1,4 @@
-import tb from '../../imgs/tb.png';
+import tb from '../../imgs/tb.PNG';
 import kam from '../../imgs/kam.jpg';
 import ryan from '../../imgs/ryan.jpg';
 import shelle from '../../imgs/shelle.png';
